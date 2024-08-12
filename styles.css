@@ -4,7 +4,6 @@
 
 body {
   margin-left: 85px;
-  margin-right: 85px;
   font-family: system-ui, sans-serif;
   color: rgb(0, 0, 0);
   background-color: rgb(255, 255, 255);
@@ -12,14 +11,13 @@ body {
 
 
 main {
-  padding: 1rem;
+  padding: 0.5rem;
 }
 
 h1 {
   font-weight: bold;
   font-size: 1.5rem;
   color:black;
-  
 }
 h2 {
   font-weight: bold;
@@ -27,20 +25,57 @@ h2 {
   color:black;
   
 } 
-p {
-  margin: 5px;
-}
-
-#h {
-  border-radius: 25px;
-}
  
 .mycontainer {
-  width:100%;
-  overflow:auto;
+  display: flex; 
+  flex-direction: column; 
+  justify-content: center; 
+  width: 100%;
+  overflow: auto;
 }
+
 .mycontainer div {
-  width:33%;
-  float:center;
-  margin: 0px;
+  margin: 15px;
+  height: auto;
+  width: auto;
+  padding: 15px;
+}
+
+ul {
+  width: 100%;
+  overflow: auto;
+
+}
+ul li {
+  background-color: antiquewhite;
+  margin: 10px;
+  color: rgb(69, 38, 0);
+}
+.separar-competencias{
+  display: flex; 
+  flex-direction: start; 
+  width: 60%;
+  overflow: auto;
+}
+
+.text{
+  width: 60%;
+  text-align: justify;
+}
+
+.dados{
+  width: 400px;
+  height: flex;
+  background-color: black;
+  color: white;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  border-radius: 10%;
+  margin: 15px;
+}
+.me{
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
 }
